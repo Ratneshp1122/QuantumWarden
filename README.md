@@ -37,7 +37,7 @@ Quantum Warden is a secure WebAssembly runtime designed for controlled plugin ex
 ### Build Instructions
 
 ```bash
-git clone https://github.com/yourname/QuantumWarden.git
+git clone https://github.com/Ratneshp1122/QuantumWarden.git
 cd QuantumWarden
 cargo build
 ```
