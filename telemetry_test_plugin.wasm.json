@@ -1,0 +1,75 @@
+{
+  "plugin_id": "test_plugin.wasm",
+  "session_id": "session_1754205347505",
+  "start_time": 1754205347,
+  "end_time": 1754205347,
+  "events": [
+    {
+      "timestamp": 1754205347,
+      "event_type": "PluginLoad",
+      "plugin_name": "test_plugin.wasm",
+      "function_name": "main",
+      "details": {
+        "version": "1.0.0",
+        "trust_level": "Some(Low)"
+      },
+      "severity": "Info"
+    },
+    {
+      "timestamp": 1754205347,
+      "event_type": "IntegrityCheck",
+      "plugin_name": "test_plugin.wasm",
+      "function_name": "main",
+      "details": {
+        "hash": "f7fb20ef0be78ab4dec443a627d3f9aa4e184bb52456b0acbb01685b97409636",
+        "verified": true
+      },
+      "severity": "Info"
+    },
+    {
+      "timestamp": 1754205347,
+      "event_type": "FunctionCall",
+      "plugin_name": "test_plugin.wasm",
+      "function_name": "run",
+      "details": {
+        "output": "()"
+      },
+      "severity": "Info"
+    },
+    {
+      "timestamp": 1754205347,
+      "event_type": "PerformanceMetric",
+      "plugin_name": "test_plugin.wasm",
+      "function_name": "run",
+      "details": {
+        "execution_time_ms": 0,
+        "duration_ns": 417300
+      },
+      "severity": "Info"
+    },
+    {
+      "timestamp": 1754205347,
+      "event_type": "PluginClassification",
+      "plugin_name": "test_plugin.wasm",
+      "function_name": "classifier",
+      "details": {
+        "confidence": 1.0,
+        "classification": "Safe",
+        "model_type": "Rule-based Classifier v1.0"
+      },
+      "severity": "Info"
+    }
+  ],
+  "metrics": {
+    "total_function_calls": 1,
+    "total_memory_accessed": 0,
+    "total_fuel_consumed": 0,
+    "execution_time_ms": 0,
+    "trap_count": 0,
+    "policy_violations": 0,
+    "suspicious_activities": 0,
+    "average_response_time_ms": 0.0
+  },
+  "trust_score": 100.0,
+  "risk_indicators": []
+}

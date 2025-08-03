@@ -1,0 +1,26 @@
+{
+  "name": "Test Plugin",
+  "version": "1.0.0",
+  "description": "A simple test plugin for SafeRunner",
+  "functions": [
+    {
+      "name": "run",
+      "signature": "() -> ()",
+      "max_execution_time_ms": 1000,
+      "allowed_input_range": null
+    },
+    {
+      "name": "add",
+      "signature": "(i32) -> i32",
+      "max_execution_time_ms": 500,
+      "allowed_input_range": [0, 1000]
+    }
+  ],
+  "memory_limit": 5,
+  "fuel_limit": 500,
+  "trust_level": "Low",
+  "requires_input": false,
+  "allowed_input_types": ["i32"],
+  "expected_hash": "f7fb20ef0be78ab4dec443a627d3f9aa4e184bb52456b0acbb01685b97409636",
+  "hash_algorithm": "sha256"
+} 

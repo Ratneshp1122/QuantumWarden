@@ -1,0 +1,15 @@
+{
+  "file": "test_plugin.wasm",
+  "function": "run",
+  "success": true,
+  "duration_ms": 0,
+  "error_message": null,
+  "fuel_consumed": null,
+  "fuel_exhausted": false,
+  "input": null,
+  "output": "()",
+  "manifest_validated": true,
+  "policy_violations": [],
+  "integrity_verified": true,
+  "plugin_hash": "f7fb20ef0be78ab4dec443a627d3f9aa4e184bb52456b0acbb01685b97409636"
+}

@@ -1,0 +1,16 @@
+{
+  "model_type": "Rule-based Classifier v1.0",
+  "confidence": 1.0,
+  "classification": "Safe",
+  "risk_factors": [],
+  "opcode_analysis": {
+    "total_opcodes": 1,
+    "unique_opcodes": 1,
+    "suspicious_patterns": [],
+    "complexity_score": 0.0,
+    "entropy_score": 0.0,
+    "opcode_frequency": {
+      "End": 1
+    }
+  }
+}

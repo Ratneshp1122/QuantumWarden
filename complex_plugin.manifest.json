@@ -1,0 +1,20 @@
+{
+  "name": "Complex Plugin",
+  "version": "1.0.0",
+  "description": "A complex plugin for testing classification",
+  "functions": [
+    {
+      "name": "run",
+      "signature": "() -> ()",
+      "max_execution_time_ms": 1000,
+      "allowed_input_range": null
+    }
+  ],
+  "memory_limit": 5,
+  "fuel_limit": 500,
+  "trust_level": "Low",
+  "requires_input": false,
+  "allowed_input_types": ["i32"],
+  "expected_hash": null,
+  "hash_algorithm": "sha256"
+} 

@@ -1,0 +1,36 @@
+{
+  "name": "Advanced Calculator Plugin",
+  "version": "2.1.0",
+  "description": "A secure calculator plugin with strict input validation",
+  "functions": [
+    {
+      "name": "add",
+      "signature": "(i32, i32) -> i32",
+      "max_execution_time_ms": 100,
+      "allowed_input_range": [-1000, 1000]
+    },
+    {
+      "name": "multiply",
+      "signature": "(i32, i32) -> i32",
+      "max_execution_time_ms": 150,
+      "allowed_input_range": [-100, 100]
+    },
+    {
+      "name": "divide",
+      "signature": "(i32, i32) -> i32",
+      "max_execution_time_ms": 200,
+      "allowed_input_range": [-1000, 1000]
+    },
+    {
+      "name": "power",
+      "signature": "(i32, i32) -> i32",
+      "max_execution_time_ms": 500,
+      "allowed_input_range": [0, 10]
+    }
+  ],
+  "memory_limit": 20,
+  "fuel_limit": 2000,
+  "trust_level": "Medium",
+  "requires_input": true,
+  "allowed_input_types": ["i32", "i64"]
+} 

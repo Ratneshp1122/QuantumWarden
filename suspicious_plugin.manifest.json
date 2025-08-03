@@ -1,0 +1,20 @@
+{
+  "name": "Suspicious Plugin",
+  "version": "1.0.0",
+  "description": "A plugin designed to test classification system",
+  "functions": [
+    {
+      "name": "run",
+      "signature": "(i32) -> i32",
+      "max_execution_time_ms": 1000,
+      "allowed_input_range": [0, 100]
+    }
+  ],
+  "memory_limit": 10,
+  "fuel_limit": 1000,
+  "trust_level": "Low",
+  "requires_input": true,
+  "allowed_input_types": ["i32"],
+  "expected_hash": null,
+  "hash_algorithm": "sha256"
+} 

@@ -1,0 +1,9 @@
+{
+    "plugin_name": "double",
+    "allowed_function": "double",
+    "input_type": "i32",
+    "output_type": "i32",
+    "max_fuel": 100000,
+    "max_memory_mb": 64
+  }
+  
